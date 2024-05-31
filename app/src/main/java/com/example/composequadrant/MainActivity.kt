@@ -103,16 +103,12 @@ private fun RowScope.QuadrantCard(
             text,
             fontWeight = FontWeight.Bold,
             modifier = modifier.padding(bottom = 16.dp),
-            style = TextStyle(
-                color = Color.Black
-            )
+            color = Color.Black,
         )
         Text(
             description,
             textAlign = TextAlign.Justify,
-            style = TextStyle(
-                color = Color.Black
-            )
+            color = Color.Black,
         )
     }
 }
